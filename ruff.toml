@@ -1,0 +1,10 @@
+# msfiles/ contains vendored module-system data that WSE2 parses at runtime.
+# It is not Python source: alignment and line breaks are part of the input
+# format. Never format it. The files also carry "# fmt: off" so an editor
+# formatter that ignores exclude rules (for example one that formats stdin)
+# still leaves them alone.
+exclude = ["msfiles"]
+force-exclude = true
+
+line-length = 120
+target-version = "py310"

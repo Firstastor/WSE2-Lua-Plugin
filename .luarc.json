@@ -1,0 +1,7 @@
+{
+  "runtime.version": "LuaJIT",
+  "workspace.checkThirdParty": false,
+  "workspace.ignoreDir": ["./msfiles"],
+  "diagnostics.globals": ["game"],
+  "telemetry.enable": false
+}
